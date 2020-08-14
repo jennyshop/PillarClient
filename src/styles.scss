@@ -1,1 +1,55 @@
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: regularfont;
+    src: url(./assets/fonts/Gilroy-Regular.otf);
+}
+
+
+html, body { height: 100%; }
+
+body { margin: 0; font-family: regularfont; background-color: white !important;
+    color: #707070;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+p,a,div{
+    font-family: regularfont;
+}
+
+.primary-snackbar {
+    background: #029e50;
+}
+
+.error-snackbar {
+    background: #af0b05;
+}
+
+.border-btn{
+    background-color: #435BBE;
+    color: white !important;
+    font-size: 15px;
+    font-family: regularfont;
+    padding: 5px !important;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.primary-btn{
+    background-color: white;
+    color: #435BBE !important;
+    font-size: 15px;
+    font-family: regularfont;
+    padding: 5px !important;
+    border-radius: 20px;
+    border: 1px solid #435BBE;
+    width: 100px;
+    text-align: center;
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

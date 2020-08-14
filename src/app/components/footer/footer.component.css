@@ -1,0 +1,13 @@
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+.fa img {
+  height: 40px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=footer.component.css.map */

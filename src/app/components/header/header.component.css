@@ -1,0 +1,145 @@
+.navbar {
+  padding: 20px 10px;
+  margin: 0 !important;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -80px !important;
+  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  font-family: regularfont;
+}
+
+.navbar-nav a {
+  color: #545454;
+}
+
+.navbar-nav a:hover {
+  color: #435BBE;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #435BBE;
+}
+
+.navbar-nav .nav-link {
+  padding: 0 30px;
+}
+
+.primary-btn {
+  margin-right: 20px;
+}
+
+.loggedinview .nav-item {
+  height: 40px;
+}
+
+#icon-links li {
+  font-size: 12px;
+  text-align: center;
+}
+
+.count-nm {
+  position: relative;
+  bottom: 13px;
+}
+
+#icon-links li img {
+  width: 20px;
+  height: 20px;
+}
+
+.nm {
+  position: relative;
+  bottom: 35px;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    position: relative;
+    left: 0%;
+    margin-left: 0px !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-toggler {
+    float: right !important;
+  }
+  .navbar-dark .navbar-toggler {
+    margin-bottom: 0px;
+    color: black;
+    border-color: black;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("../../../assets/images/hamburger.png");
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
+  .loggedinview .nav-item {
+    height: 50px;
+  }
+  .loggedinview .nav-link {
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .loggedinview .nm {
+    position: relative;
+    bottom: 70px;
+  }
+  .dropdown-menu {
+    position: relative !important;
+    top: -30px !important;
+    left: 50px !important;
+    background-color: white !important;
+  }
+}
+/*# sourceMappingURL=header.component.css.map */
