@@ -21,4 +21,139 @@
 
 .brand-logo img{
     height: 50px;
-  }
+    margin-top: 30px    
+}
+
+.center{
+    text-align: center;
+    margin: 50px 0px;
+    background-color: white;
+}
+
+
+form {
+	margin:10% auto 0 auto;
+    padding: 0px;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background:white;
+    float:left;
+	display:block;
+
+}
+
+.example-full-width {
+	width: 300px !important;
+	margin: 5px;
+}
+
+form label {
+	font-size:13px;
+	color:#363636;
+	cursor:pointer;
+}
+
+form label,
+form input {
+	float:left;
+	clear:both;
+    display: block;
+
+}
+
+form input {
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+	outline: none;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+    font-size: 13px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+    -webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+	border-color:cornflowerblue;
+
+}
+
+.submit-wrap{
+    text-align:center;
+    width:50% !important;
+    margin: auto !important;
+}
+
+button {
+	width:150px !important;
+	background-color: #435BBE;
+	border:none;
+    margin:0 auto;
+    display: block;
+    font-size: 14px;
+	color:white;
+    float: none !important;
+	cursor:pointer;
+    border-radius: 50px !important;
+    padding: 15px !important;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+select{
+    margin:20px 0;
+	padding:20px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:5px;
+    font-size:13px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+option{
+    margin:20px 0;
+	padding:20px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:5px;
+    font-size:13px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+button:hover {
+	opacity:0.8;
+}
+
+button:active {
+	opacity:0.4;
+}
